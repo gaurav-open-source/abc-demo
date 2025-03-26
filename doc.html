@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame Component Guide</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        pre { background: #eee; padding: 10px; text-align: left; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h1>A-Frame Component Guide</h1>
+    
+    <h2>Ball</h2>
+    <pre>
+&lt;a-sphere id="ball" position="-8 8.5 0" radius="0.3" color="red"
+    dynamic-body="mass: 2; shape: sphere; linearDamping: 0.01; angularDamping: 0.01"&gt;&lt;/a-sphere&gt;
+    </pre>
+    
+    <h2>Ramp</h2>
+    <pre>
+&lt;a-box id="ramp" position="0 0.5 -5" width="5" height="0.2" depth="10" color="brown"
+    static-body="" rotation="-20 0 0"&gt;&lt;/a-box&gt;
+    </pre>
+
+
+</body>
+</html>
